@@ -4,7 +4,10 @@
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css"/>
+=======
+>>>>>>> cec1e9d69815109c02e6b87c64b6072a396714e7
 </head>
 
 <body>
@@ -15,14 +18,20 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('.collapsible').collapsible();
+<<<<<<< HEAD
             $('select').material_select();
         });
         
+=======
+        });
+
+>>>>>>> cec1e9d69815109c02e6b87c64b6072a396714e7
         $('.datepicker').pickadate({
             selectMonths: true, // Creates a dropdown to control month
             selectYears: 15, // Creates a dropdown of 15 years to control year,
             today: 'Today',
             clear: 'Clear',
+<<<<<<< HEAD
             close: 'Confirm',
             closeOnSelect: false // Close upon selecting a date,
         });
@@ -31,6 +40,11 @@
     event.preventDefault();
 })
 
+=======
+            close: 'Ok',
+            closeOnSelect: false // Close upon selecting a date,
+        });
+>>>>>>> cec1e9d69815109c02e6b87c64b6072a396714e7
     </script>
 </body>
 
